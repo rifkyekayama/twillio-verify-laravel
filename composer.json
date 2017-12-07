@@ -1,0 +1,24 @@
+{
+  "name": "rifkyekayama/twillio-verify-laravel",
+  "description": "Package untuk request API Twillio verify",
+  "keywords": [
+      "twillio", "verify", "laravel", "phone", "number", "phone-number", "phone number"
+  ],
+  "license": "MIT",
+  "type": "package",
+  "authors": [
+      {
+          "name": "Rifky Ekayama",
+          "email": "rifky.ekayama@gmail.com"
+      }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": ">=5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RifkyEkayama\\Twillio-Verify\\": "src/"
+    }
+  }
+}
